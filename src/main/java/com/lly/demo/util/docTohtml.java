@@ -32,8 +32,8 @@ public class docTohtml {
     }
 
     public static void docxToHtml() throws Exception {
-        String sourceFileName = "D:/doc2htmltest/aaaa.doc";
-        String targetFileName = "D:/doc2htmltest/aaaa.html";
+        String sourceFileName = "D:/zpdtolly/工作总结文档/客户端/x86/客户端x86版使用手册网络版.doc";
+        String targetFileName = "D:/zpdtolly/工作总结文档/客户端/x86/客户端x86版使用手册网络版.html";
         String imagePathStr = "D:/doc2htmltest/image/";
         HWPFDocument wordDocument = new HWPFDocument(new FileInputStream(sourceFileName));
         WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument());
